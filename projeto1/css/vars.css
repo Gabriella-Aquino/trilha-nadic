@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;900&display=swap');
+
+
+
+:root{
+    --bg-color: #2C1527;
+    --main-color: #A24FAA;
+    --destaque-color: #E5961E;
+    --color1: #F4DDF6; 
+    --font-title:'Luckiest Guy', cursive;
+    --font-title2: font-family: 'Inder', sans-serif;
+}

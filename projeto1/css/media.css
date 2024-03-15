@@ -1,0 +1,225 @@
+
+/* notebook/computador */
+@media screen and (max-width: 1050px){
+    .left-side .text-container h1{
+        font-size: 1.9em;
+    }
+    .left-side .text-container p{
+        font-size: 16px;
+    }
+    .form-container{
+        width: 80%;
+    }
+
+    .right-side .bg-img{
+        width: 85%;
+    }
+    .right-side .bg-img img{
+        margin-bottom: 30%;
+    }
+
+
+    .game-options__container{
+        width: 75%;
+    }
+    .game-option__option{
+        width: 30%;
+    }
+    .game-option__option .description{
+        font-size: 13px;
+    }
+}
+
+/*ipad mini*/
+@media only screen and (max-width: 780px) and (min-height: 1010px){
+    #main{
+        height: 50vh;
+    }
+    .left-side .text-container h1{
+        font-size: 1.7em;
+    }
+    .left-side .text-container p{
+        font-size: 13px;
+    }
+    .form-container{
+        width: 85%;
+    }
+    .form-container label{
+        font-size: 13px;
+    }
+
+
+    #game-options{
+        height: 60vh;
+    }
+    .game-options__container{
+        width: 90%;
+    }
+    .game-option__option{
+        width: 32%;
+    }
+    .game-option__option .game-option__text h3{
+        font-size: 0.9em;
+    }
+    .game-option__option .game-option__text .game-option__title{
+        font-size: 0.8em;
+    }
+    .game-option__option .description{
+        font-size: 11px;
+    }
+
+    .astrogamer-info{
+        height: 50vh;
+    }
+    .astrogamer-info h3{
+        font-size: 0.8em;
+    }
+    .astrogamer-info p{
+        font-size: 12px;
+    }
+
+    .astrogamer-info{
+        margin-bottom: 50px;
+    }
+
+    .footer-container{
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 870px){
+    .left-side{
+        width: 55%;
+    }
+    
+
+    .right-side{
+        width: 45%;
+    }
+    .form-container{
+        width: 95%;
+    }
+    .form-container label{
+        font-size: .87em;
+    }
+
+
+    .game-options__container{
+        width: 83%;
+    }
+    .game-option__option{
+        width: 35%;
+    }
+    .game-option__option .game-option__text .game-option__header{
+        font-size: 0.9em;
+    }
+    .game-option__option .game-option__text .game-option__title{
+        font-size: 0.8em;
+    }
+    .game-option__option .description{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 790px){
+    #main{
+        margin: 1.5% 6.8% auto;
+    }
+    .left-side .text-container h1{
+        font-size: 1.7em;
+    }
+    .left-side .text-container p{
+        font-size: 13px;
+    }
+
+
+    .game-options__container{
+        width: 90%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 680px){
+    #game-options{
+        height: auto;
+        padding: 0 70px;
+    }
+    .game-options__container{
+        flex-direction: column;
+        height: min-content;
+    }
+    .game-option__option{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .game-option__option:hover{
+        transform: scale(1.03)
+    }
+    .game-option__img{
+        width: 50%;
+    }
+    .game-option__option .game-option__text .game-option__header{
+        font-size: 1em;
+    }
+    .game-option__option .game-option__text .game-option__title{
+        font-size: 0.9em;
+    }
+}
+
+
+@media screen and (max-width: 653px){
+    #main{
+        flex-direction: column-reverse;
+        height: max-content;
+        margin: 2% 12% 20%;
+    }
+    .left-side{
+        width: 100%;
+    }
+    
+
+
+    .right-side{
+        width: 100%;
+    }
+    .right-side .bg-img{
+        width: 40%;
+    }
+    .right-side .bg-img img{
+        margin: 30px 0
+    }
+
+
+    .astrogamer-info p{
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .left-side .text-container h1{
+        font-size: 1.5em;
+    }
+    .left-side .text-container h1 span{
+        font-size: 0.6em;
+    }
+        
+    .right-side .bg-img {
+        width: 60%;
+    }
+
+    #game-options{
+        padding: 0 7%
+    }
+
+    .footer-container{
+        flex-direction: column;
+        padding: 30px 50px;
+    }
+    .footer__information{
+        flex-direction: column;
+    }
+}

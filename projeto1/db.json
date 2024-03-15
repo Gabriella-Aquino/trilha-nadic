@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "League of Legends",
+        "moon": "Lua 1",
+        "img": "img/game1.jpg",
+        "description": "Nesta lua, os invocadores serão desafiados a mostrar suas habilidades no renomado League of Legends. Prepare-se para batalhas eletrizantes e estratégias cósmicas que testarão sua destreza e trabalho em equipe. As feras do rift estarão à espreita, e apenas os mais intrépidos conquistarão a glória."
+    },
+
+    {
+        "id": 2,
+        "name": "Counter-Strike",
+        "moon": "Lua 2",
+        "img": "img/game2.jpg",
+        "description": "Lua, onde a precisão e a coordenação são essenciais. Em Counter-Strike: Global Offensive, a ação nunca para. Seja pela luta contra o terrorismo ou pela manutenção da ordem, a adrenalina e os desafios estão garantidos. Prepare-se para mostrar suas habilidades táticas e dominar os mapas desta emocionante jornada."
+    },
+
+    {
+        "id": 3,
+        "name": "FIFA",
+        "moon": "Lua 3",
+        "img": "img/game3.jpg",
+        "description": "Adentre o Estádio Interplanetário, onde a terceira lua abriga apaixonados pelo esporte virtual. Em FIFA, o campo é um palco de emoções intensas, dribles criativos e chutes precisos em busca da vitória. Mostre que você é o verdadeiro astro do futebol virtual e conquiste a glória para sua equipe."
+    }
+]

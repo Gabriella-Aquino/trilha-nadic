@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links css -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>AstroGamer</title>
+</head>
+<body>
+    <div id="main">
+        
+        <div class="left-side">
+            <div class="text-container">
+                <h1><span>Event</span><br>AstroGamer</h1>
+                <p>Preparado para uma experiência interplanetária? <br>
+                    Escolha uma lua e venha jogar! <br>
+                    <strong>League of Legends, Counter-Strike e FIFA.</strong> <br>
+                    Data do evento: <span>02/12</span></p>
+            </div>
+
+            <form class="form-container">
+                <div class="personal-data">
+                    <label for="name" name="name">Nome:</label>
+                    <input id="name" type="text" required>
+
+                    <label for="email">email:</label>
+                    <input id="email" type="email" required>
+                </div>
+
+                
+                <div class="options-game-form">
+                    <p>Opção de jogo:</p>
+                    <div class="options-game-inputs">
+                        <input type="radio" value="moon1" name="options-game" class="radio"id="moon1">
+                        <label for="moon1">Lua 1</label>
+                        <input type="radio" value="moon2" name="options-game" class="radio"id="moon2">
+                        <label for="moon2">Lua 2</label>
+                        <input type="radio" value="moon3" name="options-game" class="radio"id="moon3">
+                        <label for="moon3">Lua 3</label>
+                    </div>
+                </div>
+
+                <div class="login-form">
+                    <label for="login">login:</label>
+                    <input type="text" id="login" required>
+
+                    <label for="password">senha</label>
+                    <input type="password" id="password" required>
+                    <p>no minimo 8 caracteres</p>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+
+        </div>
+        <div class="right-side"> 
+            <div class="bg-img">
+                <img src="img/back-img.png" alt="">
+            </div>              
+        </div>
+    </div>
+
+
+    <div id="game-options">
+        <div class="game-options__text">
+            <h2>Luas</h2>
+            <h3>(opções de jogos)</h3>
+        </div>
+
+        <div class="game-options__container"></div>  
+    </div>
+
+    <div class="astrogamer-info">
+        <div class="astrogamer-info__container">
+            <div class="astrogamer-info__text">
+                <h3>Participe do AstroGamer: Uma Odisseia Eletrônica!</h3>
+                <p>O AstroGamer não é apenas um torneio, é um convite para todos os amantes dos jogos eletrônicos explorarem um universo de entretenimento e competitividade. Abrace o desafio, junte-se à nossa comunidade galáctica de gamers e alcance as estrelas! Inscreva-se agora e prepare-se para uma jornada que ficará marcada na história da galáxia gamer.
+                    "Nos confins do espaço, a verdadeira competição começa." Data: 02/12</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <h2><a href="#main">AstroGamer</a></h2>
+            <div class="footer__information">
+                <div class="footer__contacts">
+                    <h4>Contatos:</h4>
+                    <ul>
+                        <li><a href="#">(XX)XXX-XXXXX</li>
+                        <li><a href="#">xxxxxx.gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="foteer__menu">
+                    <h4>Menu:</h4>
+                    <ul>
+                        <li><a href="#main">Inicio</a></li>
+                        <li><a href="#game-options">Luas(opções de jogo)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
