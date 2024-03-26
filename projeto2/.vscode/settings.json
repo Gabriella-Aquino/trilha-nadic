@@ -1,4 +1,5 @@
 {
+  "files.eol": "\n",
   "prettier.singleQuote": true,
 
   "editor.tabSize": 2,
